@@ -1,0 +1,16 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "es un chat cliente servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "keywords": [
+    "chat",
+    "socket",
+    "node"
+  ],
+  "author": "Giovanny Alvarado",
+  "license": "ISC"
+}

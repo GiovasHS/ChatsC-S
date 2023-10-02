@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "lado del cliente para el chat",
+  "main": "client.js",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "readline-sync": "^1.4.10"
+  },
+  "scripts": {
+    "test": "npm run start",
+    "dev": "nodemon  src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "chat",
+    "socket",
+    "note"
+  ],
+  "author": "Giovanny Alvarado",
+  "license": "ISC"
+}
